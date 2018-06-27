@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ol, ul, input {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:link {
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+  display: block;
+}
+html {
+  font-size: 62.5% !important;
+  background-color: #fff; 
+  -webkit-text-size-adjust: none;
+  background:#ccc;
+}
+.infotop{
+	width:100%;
+	height:74rem;
+	margin:0 auto;
+	background:url(../images/02top.jpg);
+	background-size:100% 100%;
+}
+.conapply{
+	width:100%;
+	height:60rem;
+	background:url(../images/bgg.jpg);
+	background-size:100% 100%;
+}
+.conapply table{
+	width:60%;
+	margin:0 auto;
+}
+.conapply table caption{
+	margin-top:20%;
+	margin-bottom:2%;
+	font-size:24px;
+}
+.conapply table td{
+	width:50%;
+}
+.firsttd{
+	text-align:right;
+}
+.btntd{
+	text-align:center;
+}
+.btn{
+	width:6rem;
+	height:4rem;
+	cursor: pointer;
+	text-lign:center;
+}

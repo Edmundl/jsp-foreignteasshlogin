@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #333;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+	background:#0FA0CC;
+}
+
+.DVcover{
+	width:80%;
+	height:85%;
+	background:#FFF;
+	opacity:0.5;
+	margin:0 auto;
+}
+.DVcover img{
+	width:40rem;
+	height:15rem;
+}
+.dvimg{
+	width:100%;
+	margin:0 auto;
+	background:#000;
+	text-align:center;
+}
+.dvform{
+	width:40%;
+	text-align:center;
+	margin:0 auto;
+}
+.DVcover table{
+	width:60%;
+	margin:0 auto;
+	margin-top:6rem;
+	font-size:20px;
+}
+.DVcover table tr td{
+	height:4rem;
+}
+.scroll{
+	width:80%;
+	font-size:20px;
+	margin-top:6%;
+	margin-bottom:4%;
+}
+.txt{
+	width:50%;
+	text-align:right;
+}
+.sel{
+	width:60%;
+}
+.btn{
+	width:6rem;
+	height:3rem;
+	cursor: pointer;
+}
+
+
+/*插入弹框*/
+#infoDv{
+	width: 40%;
+	height: 540px;
+	position: fixed;
+	left:30%;
+	top:16%;
+	background: white;
+	z-index: 3;
+	display: none;
+}
+#infoDvupdate{
+	width: 40%;
+	height: 650px;
+	position: fixed;
+	left:30%;
+	top:5%;
+	background: white;
+	z-index: 3;
+	display: none;
+}
+.top{
+	width:100%;
+	height: 30px;
+	line-height: 30px;
+	background: #0C80A3;
+}
+.topleft{
+	float: left;
+	margin-left:8px;
+	color:#fff;
+}
+.topright{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.topright img{
+	margin-top:1rem;
+}
+.content{
+	width: 100%;
+	height: 510px;
+	overflow-y: auto;
+	overflow-x: none;
+}
+.content p{
+	margin:20px;
+	font-size: 21px;
+}
+.bottom{
+	text-align: center;
+}
+#coverDv{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.2;
+	z-index: 2;
+	display: none;
+}
+/*插入内容*/
+.usertxt{
+	width:60%;
+	margin:0 auto;
+	margin-left:10%;
+	margin-top:2rem;
+	font-size:2rem;
+	color:#000;
+}
+.usertxtI{
+	width:80%;
+	margin:0 auto;
+}
+.usertxtinput{
+	height:3rem;
+	width:100%;
+	margin-top:1rem;
+	border-radius: 1rem;
+}
+.txtbtn{
+	width:80%;
+	margin:0 auto;
+	margin-top:16%;
+	text-align: center;
+}
+.btninsert{
+	width:8rem;
+	height: 4rem;
+	margin-left:2rem;
+	margin-right:2rem;
+	cursor: pointer;
+}
+.btnsubmit:hover{
+	background:#064052;
+	color:#FFF;
+}
+.tip{
+	font-size:12px;
+	color:red;
+}

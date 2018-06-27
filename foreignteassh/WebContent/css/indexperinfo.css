@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ol, ul, input {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:link {
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+  display: block;
+}
+html {
+  font-size: 62.5% !important;
+  background-color: #fff; 
+  -webkit-text-size-adjust: none;
+  background:#ccc;
+}
+.infotop{
+	width:100%;
+	height:74rem;
+	margin:0 auto;
+	background:url(../images/01top.jpg);
+	background-size:100% 100%;
+}
+.conall{
+	width:100%;
+	heigth:60rem;
+	background:#ccc;
+}
+.infocon{
+	width:80%;
+	height:60rem;
+	margin:0 auto;
+	background:url(../images/info.jpg);
+	background-size:100% 100%;
+	color:#FFF;
+}
+.title{
+	width:20%;
+	margin-left:34%;
+	padding-top:6.8%;
+	font-size:24px;
+	color:#000;
+	font-weight:600;
+}
+.infoleft{
+	margin-left:4%;
+}
+.infocon form{
+	width:60%;
+	margin-left:18%;
+	padding-top:4%;
+}
+.infocon form div{
+	margin-top:2%;
+}
+.tip{
+	font-size:12px;
+	color:red;
+}
+.btn{
+	width:5.2rem;
+	height:2.6rem;
+	background:#617866;
+	border:none;
+	color:#FFF;
+	cursor: pointer;
+}

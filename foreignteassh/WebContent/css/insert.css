@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #333;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+}
+
+.content{
+	width:76%;
+	height:40rem;
+	margin-top:10rem;
+	float:right;
+}
+caption{
+	margin-bottom:6rem;
+	text-align:center;
+	font-size:24px;
+}
+.content table{
+	width:60%;
+	margin-left:10%;
+	text-align:center;
+}
+.txt{
+	text-align:right;
+}
+.content table td{
+	width:6rem;
+	height:4rem;
+	font-size:16px;
+	margin-top:4rem;
+}
+.btn{
+	width:6rem;
+	height:3rem;
+	cursor: pointer;
+}

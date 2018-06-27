@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #4a4a4a;
+}
+a:visited {
+	color: #4a4a4a;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+	background:#9a9a9a;
+	color:#FFF;
+}
+
+table{
+	margin-top:4%;
+	font-size:16px;
+	text-align:center;
+}
+caption{
+	margin-bottom:2%;
+	font-size:30px;
+	font-weight:600;
+}
+input{
+	width:4rem;
+	cursor: pointer;
+}
+.add{
+	margin-top:6rem;
+}
+
+.sel{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+}
+.sel select{
+	width:10%;
+	height: 3rem;
+	font-size:2rem;
+}
+.selinput{
+	height:2rem;
+	padding-top:0.6rem;
+	width:40%;
+}
+.seltxt{
+	margin-top:2%;
+}
+.selbtn{
+	width:8rem;
+	height:3rem;
+	cursor: pointer;
+}

@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #4a4a4a;
+}
+a:visited {
+	color: #4a4a4a;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+	background:#9a9a9a;
+	color:#FFF;
+}
+
+.top{
+	height:10%;
+	width:100%;
+	background:#4a4a4a;
+	font-size:20px;
+}
+.top img{
+	height:100%;
+	width:10%;
+	margin-left:12%;
+	float:left;
+}
+.top span{
+	float:left;
+	margin-top:2rem;
+}
+.top a:link {
+	color: #FFF;
+}
+.top a:visited {
+	color: #FFF;
+}
+.top a:hover {
+	color: #ff6600;
+}
+.left{
+	height:90%;
+	width:20%;
+	float:left;
+	background:#dadada;
+}
+.left ul{
+	width:100%;
+	height:40%;
+	margin-top:30%;
+}
+
+.left ul li{
+	width:100%;
+	height:33.3%;
+	line-height:6rem;
+	text-align:center;
+	font-size:24px;
+	cursor: pointer;
+}

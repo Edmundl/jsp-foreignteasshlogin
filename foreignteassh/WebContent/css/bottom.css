@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.bottom{
+	width:100%;
+	height:32rem;
+	padding-top:6rem;
+	background:url(../images/bottombg.jpg);
+	background-size:100% 100%;
+	color:#FFF;
+}
+.con{
+	width:80%;
+	height:26rem;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row;
+}
+.conmiddle{
+	margin-left:3.6%;
+	margin-right:2.4%;
+}
+.conw{
+	width:33.3%;
+	text-align:left;
+}
+.conw p{
+	text-indent:4rem;
+}
+.conwtitle{
+	width:100%;
+	margin-bottom:2.8rem;
+	text-align:center;
+	font-size:28px;
+}
+.conbto{
+	height:26rem;
+}
+.conbto img{
+	width:100%;
+	height:80%;
+	margin:0 auto;
+}
+.conbottom{
+	width:74%;
+	height:2rem;
+	margin:0 auto;
+	padding-top:2rem;
+	text-align:center;
+	font-size:14px;
+	border-top:1px solid #FFF;
+}
